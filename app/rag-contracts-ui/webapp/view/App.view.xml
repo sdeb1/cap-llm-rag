@@ -1,0 +1,21 @@
+<mvc:View 
+    controllerName="ragcontractsui.controller.App"
+    xmlns:f="sap.f" 
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    displayBlock="true">
+    <App id="app">
+        <pages>
+            <Page
+                id="appViewPage"
+                title="Chat Based RAG APP for Contract Documents"
+                titleAlignment="Center">
+                <content>
+                        <f:FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid">
+                        </f:FlexibleColumnLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
